@@ -12,7 +12,7 @@ pub enum Service {
 
 #[derive(Debug)]
 pub struct LogEntry {
-    pub time: String,
+    pub time: NaiveDateTime,
     pub host: String,
     pub service: Service,
     pub message: String,

@@ -1,10 +1,11 @@
 use crate::entry::{LogEntry, Service};
+use chrono::prelude::*;
 use regex::Regex;
 use std::str::FromStr;
 use thiserror::Error;
 
 #[derive(Error, Debug, PartialEq)]
-pub enum ParseError {
+pub enum LogParseError {
     #[error("Regex did not capture results")]
     RegexError,
     #[error("Could not parse time")]
@@ -15,7 +16,15 @@ pub enum ParseError {
     InvalidTime,
 }
 
-pub fn parse_line(line: String) -> Result<LogEntry, ParseError> {
+fn parse_time(timestamp: &str) -> NaiveDateTime {
+    // Add the current year to the timestamp so that chrono parses it correctly.
+    let timestamp = format!("{} {}", Local::now().year(), timestamp);
+
+    let time = NaiveDateTime::parse_from_str(&timestamp, "%Y %b %d %H:%M:%S").unwrap();
+    time
+}
+
+pub fn parse_line(line: String) -> Result<LogEntry, LogParseError> {
     let time_regex = r"^[A-z][a-z]{2} \d{2} \d{2}:\d{2}:\d{2}";
     let host_regex = r"[a-zA-Z0-9-]+";
     let service_regex = r"[a-zA-Z0-9-]+";
@@ -32,45 +41,54 @@ pub fn parse_line(line: String) -> Result<LogEntry, ParseError> {
 
     let time = captures
         .name("time")
-        .ok_or(ParseError::InvalidTime)?
+        .ok_or(LogParseError::InvalidTime)?
         .as_str();
     let host = captures
         .name("host")
-        .ok_or(ParseError::InvalidHost)?
+        .ok_or(LogParseError::InvalidHost)?
         .as_str();
-    let service = match Service::from_str(
-        captures
-            .name("service")
-            .ok_or(ParseError::InvalidService)?
-            .as_str(),
-    ) {
-        Ok(service) => service,
-        Err(_) => return Err(ParseError::InvalidService),
-    };
+    let service = captures
+        .name("service")
+        .ok_or(LogParseError::InvalidService)?
+        .as_str();
     let message = captures
         .name("message")
-        .ok_or(ParseError::RegexError)?
+        .ok_or(LogParseError::RegexError)?
         .as_str();
 
+    let time = parse_time(time);
+    let service = match Service::from_str(service) {
+        Ok(service) => service,
+        Err(_) => return Err(LogParseError::InvalidService),
+    };
+
     Ok(LogEntry {
-        time: time.to_string(),
-        host: host.to_string(),
+        time,
         service,
+        host: host.to_string(),
         message: message.to_string(),
     })
 }
 
 #[cfg(test)]
 mod tests {
+    use chrono::prelude::*;
+
     #[test]
     fn parser_parses_time() {
+        let current_year = Local::now().year();
+
         let line = "Jan 01 00:00:00 host sudo: user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/bin/bash".to_string();
+        let expected = NaiveDateTime::parse_from_str(&format!("{} Jan 01 00:00:00", current_year), "%Y %b %d %H:%M:%S").unwrap();
+
         let entry = super::parse_line(line).unwrap();
-        assert_eq!(entry.time, "Jan 01 00:00:00");
+        assert_eq!(entry.time, expected);
 
         let line = "Mar 15 23:22:13 host sudo: user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/bin/bash".to_string();
+        let expected = NaiveDateTime::parse_from_str(&format!("{} Mar 15 23:22:13", current_year), "%Y %b %d %H:%M:%S").unwrap();
+
         let entry = super::parse_line(line).unwrap();
-        assert_eq!(entry.time, "Mar 15 23:22:13");
+        assert_eq!(entry.time, expected);
     }
 
     #[test]
@@ -95,7 +113,17 @@ mod tests {
     fn parser_fails_unsupported_service() {
         let line = "Jan 01 00:00:00 host unsupported: user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/bin/bash".to_string();
         let result = super::parse_line(line).unwrap_err();
-        let expected = super::ParseError::InvalidService;
+        let expected = super::LogParseError::InvalidService;
         assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn parser_parses_message() {
+        let line = "Jan 01 00:00:00 host sudo: user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/bin/bash".to_string();
+        let entry = super::parse_line(line).unwrap();
+        assert_eq!(
+            entry.message,
+            "user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/bin/bash"
+        );
     }
 }
