@@ -1,4 +1,6 @@
 mod remote;
+mod parser;
+mod entry;
 
 use clap::Parser;
 use std::path::PathBuf;
@@ -51,4 +53,13 @@ async fn main() {
 
     // Print how many lines were read
     println!("Read {} lines", data.len());
+
+    let parsed_lines = parser::parse_lines(data);
+    let ansible_runs = parser::get_ansible_runs(parsed_lines);
+
+    // Print how many ansible runs were found
+    println!("Found {} ansible runs", ansible_runs.len());
+
+    dbg!(ansible_runs);
+
 }
