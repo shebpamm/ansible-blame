@@ -1,0 +1,494 @@
+Mar 12 00:17:02 nitrogen CRON[1075561]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 00:17:02 nitrogen CRON[1075561]: pam_unix(cron:session): session closed for user root
+Mar 12 01:17:01 nitrogen CRON[1165358]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 01:17:01 nitrogen CRON[1165358]: pam_unix(cron:session): session closed for user root
+Mar 12 02:17:02 nitrogen CRON[1255082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 02:17:02 nitrogen CRON[1255082]: pam_unix(cron:session): session closed for user root
+Mar 12 03:10:01 nitrogen CRON[1334267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 03:10:01 nitrogen CRON[1334267]: pam_unix(cron:session): session closed for user root
+Mar 12 03:17:01 nitrogen CRON[1344810]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 03:17:01 nitrogen CRON[1344810]: pam_unix(cron:session): session closed for user root
+Mar 12 03:30:01 nitrogen CRON[1364197]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 03:30:01 nitrogen CRON[1364197]: pam_unix(cron:session): session closed for user root
+Mar 12 04:17:01 nitrogen CRON[1434615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 04:17:01 nitrogen CRON[1434615]: pam_unix(cron:session): session closed for user root
+Mar 12 05:17:01 nitrogen CRON[1524237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 05:17:01 nitrogen CRON[1524237]: pam_unix(cron:session): session closed for user root
+Mar 12 06:17:01 nitrogen CRON[1613770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 06:17:01 nitrogen CRON[1613770]: pam_unix(cron:session): session closed for user root
+Mar 12 06:25:01 nitrogen CRON[1625810]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 06:25:03 nitrogen CRON[1625810]: pam_unix(cron:session): session closed for user root
+Mar 12 06:47:01 nitrogen CRON[1658630]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 06:47:01 nitrogen CRON[1658630]: pam_unix(cron:session): session closed for user root
+Mar 12 07:17:01 nitrogen CRON[1703689]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 07:17:01 nitrogen CRON[1703689]: pam_unix(cron:session): session closed for user root
+Mar 12 08:17:01 nitrogen CRON[1793385]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 08:17:01 nitrogen CRON[1793385]: pam_unix(cron:session): session closed for user root
+Mar 12 09:17:01 nitrogen CRON[1882968]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 09:17:01 nitrogen CRON[1882968]: pam_unix(cron:session): session closed for user root
+Mar 12 10:17:01 nitrogen CRON[1972624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 10:17:01 nitrogen CRON[1972624]: pam_unix(cron:session): session closed for user root
+Mar 12 11:17:01 nitrogen CRON[2062288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 11:17:01 nitrogen CRON[2062288]: pam_unix(cron:session): session closed for user root
+Mar 12 12:00:01 nitrogen CRON[2126337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 12:00:01 nitrogen CRON[2126337]: pam_unix(cron:session): session closed for user root
+Mar 12 12:17:01 nitrogen CRON[2151726]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 12:17:01 nitrogen CRON[2151726]: pam_unix(cron:session): session closed for user root
+Mar 12 13:17:02 nitrogen CRON[2241307]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 13:17:02 nitrogen CRON[2241307]: pam_unix(cron:session): session closed for user root
+Mar 12 14:17:01 nitrogen CRON[2330734]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 14:17:01 nitrogen CRON[2330734]: pam_unix(cron:session): session closed for user root
+Mar 12 15:17:01 nitrogen CRON[2420248]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 15:17:01 nitrogen CRON[2420248]: pam_unix(cron:session): session closed for user root
+Mar 12 16:17:01 nitrogen CRON[2510579]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 16:17:01 nitrogen CRON[2510579]: pam_unix(cron:session): session closed for user root
+Mar 12 17:14:01 nitrogen CRON[2595759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 17:14:01 nitrogen CRON[2595759]: pam_unix(cron:session): session closed for user root
+Mar 12 17:17:02 nitrogen CRON[2600338]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 17:17:02 nitrogen CRON[2600338]: pam_unix(cron:session): session closed for user root
+Mar 12 18:17:01 nitrogen CRON[2689805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 18:17:01 nitrogen CRON[2689805]: pam_unix(cron:session): session closed for user root
+Mar 12 19:17:01 nitrogen CRON[2779367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 19:17:01 nitrogen CRON[2779367]: pam_unix(cron:session): session closed for user root
+Mar 12 20:17:01 nitrogen CRON[2868910]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 20:17:01 nitrogen CRON[2868910]: pam_unix(cron:session): session closed for user root
+Mar 12 21:17:01 nitrogen CRON[2958701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 21:17:01 nitrogen CRON[2958701]: pam_unix(cron:session): session closed for user root
+Mar 12 22:17:01 nitrogen CRON[3048536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 22:17:01 nitrogen CRON[3048536]: pam_unix(cron:session): session closed for user root
+Mar 12 23:17:01 nitrogen CRON[3138409]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 23:17:01 nitrogen CRON[3138409]: pam_unix(cron:session): session closed for user root
+Mar 13 00:00:01 nitrogen CRON[3202701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 00:00:01 nitrogen CRON[3202701]: pam_unix(cron:session): session closed for user root
+Mar 13 00:17:01 nitrogen CRON[3228150]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 00:17:01 nitrogen CRON[3228150]: pam_unix(cron:session): session closed for user root
+Mar 13 01:17:01 nitrogen CRON[3317971]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 01:17:01 nitrogen CRON[3317971]: pam_unix(cron:session): session closed for user root
+Mar 13 02:17:02 nitrogen CRON[3407498]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 02:17:02 nitrogen CRON[3407498]: pam_unix(cron:session): session closed for user root
+Mar 13 03:10:02 nitrogen CRON[3486253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 03:10:02 nitrogen CRON[3486253]: pam_unix(cron:session): session closed for user root
+Mar 13 03:17:01 nitrogen CRON[3496781]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 03:17:01 nitrogen CRON[3496781]: pam_unix(cron:session): session closed for user root
+Mar 13 03:30:01 nitrogen CRON[3516199]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 03:30:10 nitrogen CRON[3516199]: pam_unix(cron:session): session closed for user root
+Mar 13 04:17:01 nitrogen CRON[3586543]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 04:17:01 nitrogen CRON[3586543]: pam_unix(cron:session): session closed for user root
+Mar 13 05:17:01 nitrogen CRON[3676038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 05:17:01 nitrogen CRON[3676038]: pam_unix(cron:session): session closed for user root
+Mar 13 06:17:01 nitrogen CRON[3765638]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 06:17:01 nitrogen CRON[3765638]: pam_unix(cron:session): session closed for user root
+Mar 13 06:25:01 nitrogen CRON[3777662]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 06:25:04 nitrogen CRON[3777662]: pam_unix(cron:session): session closed for user root
+Mar 13 07:17:01 nitrogen CRON[3855557]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 07:17:01 nitrogen CRON[3855557]: pam_unix(cron:session): session closed for user root
+Mar 13 08:17:01 nitrogen CRON[3947631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 08:17:01 nitrogen CRON[3947631]: pam_unix(cron:session): session closed for user root
+Mar 13 09:17:01 nitrogen CRON[4037195]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 09:17:01 nitrogen CRON[4037195]: pam_unix(cron:session): session closed for user root
+Mar 13 10:17:01 nitrogen CRON[4126995]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 10:17:01 nitrogen CRON[4126995]: pam_unix(cron:session): session closed for user root
+Mar 13 11:17:01 nitrogen CRON[22875]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 11:17:01 nitrogen CRON[22875]: pam_unix(cron:session): session closed for user root
+Mar 13 12:00:01 nitrogen CRON[87176]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 12:00:01 nitrogen CRON[87176]: pam_unix(cron:session): session closed for user root
+Mar 13 12:17:01 nitrogen CRON[112448]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 12:17:01 nitrogen CRON[112448]: pam_unix(cron:session): session closed for user root
+Mar 13 13:04:10 nitrogen smbd: pam_unix(samba:session): session opened for user shebpamm by (uid=0)
+Mar 13 13:17:02 nitrogen CRON[202187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 13:17:02 nitrogen CRON[202187]: pam_unix(cron:session): session closed for user root
+Mar 13 14:17:01 nitrogen CRON[291944]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 14:17:01 nitrogen CRON[291944]: pam_unix(cron:session): session closed for user root
+Mar 13 14:26:01 nitrogen smbd: pam_unix(samba:session): session closed for user shebpamm
+Mar 13 14:28:03 nitrogen smbd: pam_unix(samba:session): session opened for user shebpamm by (uid=0)
+Mar 13 15:17:01 nitrogen CRON[381570]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 15:17:01 nitrogen CRON[381570]: pam_unix(cron:session): session closed for user root
+Mar 13 16:17:01 nitrogen CRON[472168]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 16:17:01 nitrogen CRON[472168]: pam_unix(cron:session): session closed for user root
+Mar 13 17:14:01 nitrogen CRON[557559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 17:14:01 nitrogen CRON[557559]: pam_unix(cron:session): session closed for user root
+Mar 13 17:17:01 nitrogen CRON[562022]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 17:17:01 nitrogen CRON[562022]: pam_unix(cron:session): session closed for user root
+Mar 13 18:17:01 nitrogen CRON[651838]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 18:17:01 nitrogen CRON[651838]: pam_unix(cron:session): session closed for user root
+Mar 13 19:17:01 nitrogen CRON[741907]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 19:17:01 nitrogen CRON[741907]: pam_unix(cron:session): session closed for user root
+Mar 13 20:17:01 nitrogen CRON[831541]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 20:17:01 nitrogen CRON[831541]: pam_unix(cron:session): session closed for user root
+Mar 13 21:17:01 nitrogen CRON[921215]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 21:17:01 nitrogen CRON[921215]: pam_unix(cron:session): session closed for user root
+Mar 13 22:17:01 nitrogen CRON[1011196]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 22:17:01 nitrogen CRON[1011196]: pam_unix(cron:session): session closed for user root
+Mar 13 23:17:01 nitrogen CRON[1101164]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 23:17:01 nitrogen CRON[1101164]: pam_unix(cron:session): session closed for user root
+Mar 13 23:30:25 nitrogen smbd: pam_unix(samba:session): session closed for user shebpamm
+Mar 14 00:00:01 nitrogen CRON[1165625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 00:00:01 nitrogen CRON[1165625]: pam_unix(cron:session): session closed for user root
+Mar 14 00:17:02 nitrogen CRON[1190978]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 00:17:02 nitrogen CRON[1190978]: pam_unix(cron:session): session closed for user root
+Mar 14 01:17:01 nitrogen CRON[1280482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 01:17:01 nitrogen CRON[1280482]: pam_unix(cron:session): session closed for user root
+Mar 14 02:17:01 nitrogen CRON[1370140]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 02:17:01 nitrogen CRON[1370140]: pam_unix(cron:session): session closed for user root
+Mar 14 03:10:01 nitrogen CRON[1449083]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 03:10:01 nitrogen CRON[1449083]: pam_unix(cron:session): session closed for user root
+Mar 14 03:17:01 nitrogen CRON[1459660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 03:17:01 nitrogen CRON[1459660]: pam_unix(cron:session): session closed for user root
+Mar 14 04:17:02 nitrogen CRON[1549356]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 04:17:02 nitrogen CRON[1549356]: pam_unix(cron:session): session closed for user root
+Mar 14 05:17:01 nitrogen CRON[1639020]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 05:17:01 nitrogen CRON[1639020]: pam_unix(cron:session): session closed for user root
+Mar 14 06:17:01 nitrogen CRON[1728772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 06:17:01 nitrogen CRON[1728772]: pam_unix(cron:session): session closed for user root
+Mar 14 06:25:01 nitrogen CRON[1740841]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 06:25:03 nitrogen CRON[1740841]: pam_unix(cron:session): session closed for user root
+Mar 14 07:17:01 nitrogen CRON[1818777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 07:17:01 nitrogen CRON[1818777]: pam_unix(cron:session): session closed for user root
+Mar 14 08:17:01 nitrogen CRON[1909264]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 08:17:01 nitrogen CRON[1909264]: pam_unix(cron:session): session closed for user root
+Mar 14 09:17:01 nitrogen CRON[1998760]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 09:17:01 nitrogen CRON[1998760]: pam_unix(cron:session): session closed for user root
+Mar 14 10:17:01 nitrogen CRON[2088544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 10:17:01 nitrogen CRON[2088544]: pam_unix(cron:session): session closed for user root
+Mar 14 11:17:02 nitrogen CRON[2178254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 11:17:02 nitrogen CRON[2178254]: pam_unix(cron:session): session closed for user root
+Mar 14 12:00:01 nitrogen CRON[2242655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 12:00:01 nitrogen CRON[2242655]: pam_unix(cron:session): session closed for user root
+Mar 14 12:17:01 nitrogen CRON[2267940]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 12:17:01 nitrogen CRON[2267940]: pam_unix(cron:session): session closed for user root
+Mar 14 13:17:01 nitrogen CRON[2357770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 13:17:01 nitrogen CRON[2357770]: pam_unix(cron:session): session closed for user root
+Mar 14 14:17:01 nitrogen CRON[2447510]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 14:17:01 nitrogen CRON[2447510]: pam_unix(cron:session): session closed for user root
+Mar 14 15:17:01 nitrogen CRON[2537308]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 15:17:01 nitrogen CRON[2537308]: pam_unix(cron:session): session closed for user root
+Mar 14 16:17:01 nitrogen CRON[2627264]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 16:17:01 nitrogen CRON[2627264]: pam_unix(cron:session): session closed for user root
+Mar 14 17:14:01 nitrogen CRON[2712356]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 17:14:01 nitrogen CRON[2712356]: pam_unix(cron:session): session closed for user root
+Mar 14 17:17:01 nitrogen CRON[2716971]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 17:17:01 nitrogen CRON[2716971]: pam_unix(cron:session): session closed for user root
+Mar 14 18:17:01 nitrogen CRON[2806690]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 18:17:01 nitrogen CRON[2806690]: pam_unix(cron:session): session closed for user root
+Mar 14 18:53:12 nitrogen sshd[2860612]: Accepted password for shebpamm from 192.168.1.234 port 45110 ssh2
+Mar 14 18:53:12 nitrogen sshd[2860612]: pam_unix(sshd:session): session opened for user shebpamm by (uid=0)
+Mar 14 18:53:13 nitrogen systemd-logind[1424]: New session 6598 of user shebpamm.
+Mar 14 18:53:13 nitrogen systemd: pam_unix(systemd-user:session): session opened for user shebpamm by (uid=0)
+Mar 14 19:05:48 nitrogen sshd[2860931]: Received disconnect from 192.168.1.234 port 45110:11: disconnected by user
+Mar 14 19:05:48 nitrogen sshd[2860931]: Disconnected from user shebpamm 192.168.1.234 port 45110
+Mar 14 19:05:48 nitrogen sshd[2860612]: pam_unix(sshd:session): session closed for user shebpamm
+Mar 14 19:05:48 nitrogen systemd-logind[1424]: Session 6598 logged out. Waiting for processes to exit.
+Mar 14 19:05:48 nitrogen systemd-logind[1424]: Removed session 6598.
+Mar 14 19:08:40 nitrogen smbd: pam_unix(samba:session): session closed for user nobody
+Mar 14 19:08:40 nitrogen smbd: pam_unix(samba:session): session opened for user shebpamm by (uid=0)
+Mar 14 19:17:02 nitrogen CRON[2896564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 19:17:02 nitrogen CRON[2896564]: pam_unix(cron:session): session closed for user root
+Mar 14 19:25:31 nitrogen smbd: pam_unix(samba:session): session closed for user shebpamm
+Mar 14 19:26:11 nitrogen smbd: pam_unix(samba:session): session opened for user shebpamm by (uid=0)
+Mar 14 20:17:02 nitrogen CRON[2982834]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 20:17:02 nitrogen CRON[2982834]: pam_unix(cron:session): session closed for user root
+Mar 14 21:17:02 nitrogen CRON[3069508]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 21:17:02 nitrogen CRON[3069508]: pam_unix(cron:session): session closed for user root
+Mar 14 22:17:02 nitrogen CRON[3156407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 22:17:02 nitrogen CRON[3156407]: pam_unix(cron:session): session closed for user root
+Mar 14 23:17:02 nitrogen CRON[3243658]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 23:17:02 nitrogen CRON[3243658]: pam_unix(cron:session): session closed for user root
+Mar 15 00:00:02 nitrogen CRON[3305812]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 00:00:02 nitrogen CRON[3305812]: pam_unix(cron:session): session closed for user root
+Mar 15 00:17:02 nitrogen CRON[3330276]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 00:17:02 nitrogen CRON[3330276]: pam_unix(cron:session): session closed for user root
+Mar 15 01:17:02 nitrogen CRON[3417769]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 01:17:02 nitrogen CRON[3417769]: pam_unix(cron:session): session closed for user root
+Mar 15 02:17:02 nitrogen CRON[3504358]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 02:17:03 nitrogen CRON[3504358]: pam_unix(cron:session): session closed for user root
+Mar 15 03:10:02 nitrogen CRON[3580071]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 03:10:02 nitrogen CRON[3580071]: pam_unix(cron:session): session closed for user root
+Mar 15 03:17:02 nitrogen CRON[3590210]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 03:17:02 nitrogen CRON[3590210]: pam_unix(cron:session): session closed for user root
+Mar 15 04:17:02 nitrogen CRON[3677875]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 04:17:02 nitrogen CRON[3677875]: pam_unix(cron:session): session closed for user root
+Mar 15 05:17:01 nitrogen CRON[3765462]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 05:17:02 nitrogen CRON[3765462]: pam_unix(cron:session): session closed for user root
+Mar 15 06:17:02 nitrogen CRON[3852489]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 06:17:02 nitrogen CRON[3852489]: pam_unix(cron:session): session closed for user root
+Mar 15 06:25:01 nitrogen CRON[3865452]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 06:25:05 nitrogen CRON[3865452]: pam_unix(cron:session): session closed for user root
+Mar 15 07:17:03 nitrogen CRON[3942248]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 07:17:03 nitrogen CRON[3942248]: pam_unix(cron:session): session closed for user root
+Mar 15 08:17:01 nitrogen CRON[4029657]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 08:17:02 nitrogen CRON[4029657]: pam_unix(cron:session): session closed for user root
+Mar 15 09:17:02 nitrogen CRON[4116887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 09:17:02 nitrogen CRON[4116887]: pam_unix(cron:session): session closed for user root
+Mar 15 10:17:02 nitrogen CRON[10831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 10:17:02 nitrogen CRON[10831]: pam_unix(cron:session): session closed for user root
+Mar 15 11:17:01 nitrogen CRON[98301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 11:17:02 nitrogen CRON[98301]: pam_unix(cron:session): session closed for user root
+Mar 15 12:00:01 nitrogen CRON[161032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 12:00:01 nitrogen CRON[161032]: pam_unix(cron:session): session closed for user root
+Mar 15 12:17:01 nitrogen CRON[185311]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 12:17:01 nitrogen CRON[185311]: pam_unix(cron:session): session closed for user root
+Mar 15 13:17:01 nitrogen CRON[274756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 13:17:01 nitrogen CRON[274756]: pam_unix(cron:session): session closed for user root
+Mar 15 14:17:01 nitrogen CRON[364689]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 14:17:01 nitrogen CRON[364689]: pam_unix(cron:session): session closed for user root
+Mar 15 14:34:25 nitrogen smbd: pam_unix(samba:session): session closed for user shebpamm
+Mar 15 15:17:02 nitrogen CRON[454585]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 15:17:02 nitrogen CRON[454585]: pam_unix(cron:session): session closed for user root
+Mar 15 16:17:01 nitrogen CRON[544199]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 16:17:01 nitrogen CRON[544199]: pam_unix(cron:session): session closed for user root
+Mar 15 17:14:01 nitrogen CRON[629524]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 17:14:01 nitrogen CRON[629524]: pam_unix(cron:session): session closed for user root
+Mar 15 17:17:01 nitrogen CRON[634111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 17:17:01 nitrogen CRON[634111]: pam_unix(cron:session): session closed for user root
+Mar 15 18:17:01 nitrogen CRON[723671]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 18:17:01 nitrogen CRON[723671]: pam_unix(cron:session): session closed for user root
+Mar 15 19:17:01 nitrogen CRON[813583]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 19:17:01 nitrogen CRON[813583]: pam_unix(cron:session): session closed for user root
+Mar 15 20:17:01 nitrogen CRON[902982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 20:17:01 nitrogen CRON[902982]: pam_unix(cron:session): session closed for user root
+Mar 15 20:28:23 nitrogen smbd: pam_unix(samba:session): session opened for user shebpamm by (uid=0)
+Mar 15 20:31:26 nitrogen sshd[924612]: Accepted publickey for shebpamm@ad.sorsa.cloud from 192.168.1.234 port 1032 ssh2: RSA SHA256:OQjlql32SfRqd8bkAG70y8ob419TU3F5Moi194jfLzE
+Mar 15 20:31:26 nitrogen sshd[924612]: pam_unix(sshd:session): session opened for user shebpamm@ad.sorsa.cloud by (uid=0)
+Mar 15 20:31:27 nitrogen systemd-logind[1424]: New session 6631 of user shebpamm@ad.sorsa.cloud.
+Mar 15 20:31:27 nitrogen systemd: pam_unix(systemd-user:session): session opened for user shebpamm@ad.sorsa.cloud by (uid=0)
+Mar 15 20:53:50 nitrogen sudo: shebpamm@ad.sorsa.cloud : TTY=pts/0 ; PWD=/home/shebpamm@ad.sorsa.cloud ; USER=root ; COMMAND=/bin/bash
+Mar 15 20:53:50 nitrogen sudo: pam_unix(sudo:session): session opened for user root by shebpamm@ad.sorsa.cloud(uid=0)
+Mar 15 21:07:58 nitrogen sshd[924988]: Received disconnect from 192.168.1.234 port 1032:11: disconnected by user
+Mar 15 21:07:58 nitrogen sshd[924988]: Disconnected from user shebpamm@ad.sorsa.cloud 192.168.1.234 port 1032
+Mar 15 21:07:58 nitrogen sshd[924612]: pam_unix(sshd:session): session closed for user shebpamm@ad.sorsa.cloud
+Mar 15 21:07:58 nitrogen sudo: pam_unix(sudo:session): session closed for user root
+Mar 15 21:07:58 nitrogen systemd-logind[1424]: Session 6631 logged out. Waiting for processes to exit.
+Mar 15 21:07:58 nitrogen systemd-logind[1424]: Removed session 6631.
+Mar 15 21:17:01 nitrogen CRON[966522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 21:17:01 nitrogen CRON[966522]: pam_unix(cron:session): session closed for user root
+Mar 15 22:17:01 nitrogen CRON[976869]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 22:17:01 nitrogen CRON[976869]: pam_unix(cron:session): session closed for user root
+Mar 15 23:17:01 nitrogen CRON[987145]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 23:17:01 nitrogen CRON[987145]: pam_unix(cron:session): session closed for user root
+Mar 16 00:00:01 nitrogen CRON[994548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 00:00:01 nitrogen CRON[994548]: pam_unix(cron:session): session closed for user root
+Mar 16 00:17:01 nitrogen CRON[997526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 00:17:01 nitrogen CRON[997526]: pam_unix(cron:session): session closed for user root
+Mar 16 01:17:01 nitrogen CRON[1007829]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 01:17:01 nitrogen CRON[1007829]: pam_unix(cron:session): session closed for user root
+Mar 16 02:17:01 nitrogen CRON[1018107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 02:17:01 nitrogen CRON[1018107]: pam_unix(cron:session): session closed for user root
+Mar 16 03:10:01 nitrogen CRON[1027178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 03:10:01 nitrogen CRON[1027178]: pam_unix(cron:session): session closed for user root
+Mar 16 03:17:01 nitrogen CRON[1028376]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 03:17:01 nitrogen CRON[1028376]: pam_unix(cron:session): session closed for user root
+Mar 16 03:19:06 nitrogen smbd: pam_unix(samba:session): session closed for user shebpamm
+Mar 16 04:17:01 nitrogen CRON[1038624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 04:17:01 nitrogen CRON[1038624]: pam_unix(cron:session): session closed for user root
+Mar 16 05:17:01 nitrogen CRON[1048858]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 05:17:01 nitrogen CRON[1048858]: pam_unix(cron:session): session closed for user root
+Mar 16 06:17:01 nitrogen CRON[1059192]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 06:17:01 nitrogen CRON[1059192]: pam_unix(cron:session): session closed for user root
+Mar 16 06:25:01 nitrogen CRON[1060560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 06:25:02 nitrogen CRON[1060560]: pam_unix(cron:session): session closed for user root
+Mar 16 07:17:01 nitrogen CRON[1069527]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 07:17:01 nitrogen CRON[1069527]: pam_unix(cron:session): session closed for user root
+Mar 16 08:17:01 nitrogen CRON[1079746]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 08:17:01 nitrogen CRON[1079746]: pam_unix(cron:session): session closed for user root
+Mar 16 09:17:01 nitrogen CRON[1089972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 09:17:01 nitrogen CRON[1089972]: pam_unix(cron:session): session closed for user root
+Mar 16 10:17:01 nitrogen CRON[1100877]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 10:17:01 nitrogen CRON[1100877]: pam_unix(cron:session): session closed for user root
+Mar 16 11:17:01 nitrogen CRON[1111143]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 11:17:01 nitrogen CRON[1111143]: pam_unix(cron:session): session closed for user root
+Mar 16 12:00:01 nitrogen CRON[1118497]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 12:00:01 nitrogen CRON[1118497]: pam_unix(cron:session): session closed for user root
+Mar 16 12:17:01 nitrogen CRON[1121373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 12:17:01 nitrogen CRON[1121373]: pam_unix(cron:session): session closed for user root
+Mar 16 13:17:02 nitrogen CRON[1131673]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 13:17:02 nitrogen CRON[1131673]: pam_unix(cron:session): session closed for user root
+Mar 16 14:17:01 nitrogen CRON[1141929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 14:17:01 nitrogen CRON[1141929]: pam_unix(cron:session): session closed for user root
+Mar 16 15:17:01 nitrogen CRON[1152262]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 15:17:01 nitrogen CRON[1152262]: pam_unix(cron:session): session closed for user root
+Mar 16 16:17:01 nitrogen CRON[1162513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 16:17:01 nitrogen CRON[1162513]: pam_unix(cron:session): session closed for user root
+Mar 16 17:14:01 nitrogen CRON[1172263]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 17:14:01 nitrogen CRON[1172263]: pam_unix(cron:session): session closed for user root
+Mar 16 17:17:01 nitrogen CRON[1172786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 17:17:01 nitrogen CRON[1172786]: pam_unix(cron:session): session closed for user root
+Mar 16 18:17:01 nitrogen CRON[1183007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 18:17:01 nitrogen CRON[1183007]: pam_unix(cron:session): session closed for user root
+Mar 16 19:17:01 nitrogen CRON[1193295]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 19:17:01 nitrogen CRON[1193295]: pam_unix(cron:session): session closed for user root
+Mar 16 19:44:28 nitrogen smbd: pam_unix(samba:session): session opened for user shebpamm by (uid=0)
+Mar 16 20:17:01 nitrogen CRON[1203529]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 20:17:01 nitrogen CRON[1203529]: pam_unix(cron:session): session closed for user root
+Mar 16 20:57:53 nitrogen smbd: pam_unix(samba:session): session closed for user shebpamm
+Mar 16 21:00:56 nitrogen sshd[1211048]: Connection closed by authenticating user shebpamm 192.168.1.234 port 59904 [preauth]
+Mar 16 21:00:59 nitrogen sshd[1211056]: Accepted password for shebpamm from 192.168.1.234 port 59912 ssh2
+Mar 16 21:00:59 nitrogen sshd[1211056]: pam_unix(sshd:session): session opened for user shebpamm by (uid=0)
+Mar 16 21:00:59 nitrogen systemd-logind[1424]: New session 6662 of user shebpamm.
+Mar 16 21:00:59 nitrogen systemd: pam_unix(systemd-user:session): session opened for user shebpamm by (uid=0)
+Mar 16 21:01:14 nitrogen sshd[1211234]: Received disconnect from 192.168.1.234 port 59912:11: disconnected by user
+Mar 16 21:01:14 nitrogen sshd[1211234]: Disconnected from user shebpamm 192.168.1.234 port 59912
+Mar 16 21:01:14 nitrogen sshd[1211056]: pam_unix(sshd:session): session closed for user shebpamm
+Mar 16 21:01:14 nitrogen systemd-logind[1424]: Session 6662 logged out. Waiting for processes to exit.
+Mar 16 21:01:14 nitrogen systemd-logind[1424]: Removed session 6662.
+Mar 16 21:01:16 nitrogen sshd[1211303]: Connection closed by authenticating user shebpamm 192.168.1.234 port 40774 [preauth]
+Mar 16 21:05:41 nitrogen sshd[1212097]: Accepted password for shebpamm from 192.168.1.234 port 55638 ssh2
+Mar 16 21:05:41 nitrogen sshd[1212097]: pam_unix(sshd:session): session opened for user shebpamm by (uid=0)
+Mar 16 21:05:41 nitrogen systemd-logind[1424]: New session 6664 of user shebpamm.
+Mar 16 21:05:41 nitrogen systemd: pam_unix(systemd-user:session): session opened for user shebpamm by (uid=0)
+Mar 16 21:05:53 nitrogen sshd[1212266]: Connection closed by authenticating user shebpamm 192.168.1.234 port 42258 [preauth]
+Mar 16 21:05:53 nitrogen sshd[1212268]: Connection closed by authenticating user shebpamm 192.168.1.234 port 42264 [preauth]
+Mar 16 21:10:53 nitrogen sshd[1212199]: Received disconnect from 192.168.1.234 port 55638:11: disconnected by user
+Mar 16 21:10:53 nitrogen sshd[1212199]: Disconnected from user shebpamm 192.168.1.234 port 55638
+Mar 16 21:10:53 nitrogen sshd[1212097]: pam_unix(sshd:session): session closed for user shebpamm
+Mar 16 21:10:53 nitrogen systemd-logind[1424]: Session 6664 logged out. Waiting for processes to exit.
+Mar 16 21:10:53 nitrogen systemd-logind[1424]: Removed session 6664.
+Mar 16 21:12:14 nitrogen sshd[1213372]: Accepted publickey for shebpamm from 192.168.1.234 port 39560 ssh2: ED25519 SHA256:7l/DzZ9oCpgD5Zt9fvPc0HP7d/ueRxyckiFrasjzdZQ
+Mar 16 21:12:14 nitrogen sshd[1213372]: pam_unix(sshd:session): session opened for user shebpamm by (uid=0)
+Mar 16 21:12:14 nitrogen systemd-logind[1424]: New session 6666 of user shebpamm.
+Mar 16 21:12:14 nitrogen systemd: pam_unix(systemd-user:session): session opened for user shebpamm by (uid=0)
+Mar 16 21:12:17 nitrogen sshd[1213466]: Received disconnect from 192.168.1.234 port 39560:11: disconnected by user
+Mar 16 21:12:17 nitrogen sshd[1213466]: Disconnected from user shebpamm 192.168.1.234 port 39560
+Mar 16 21:12:17 nitrogen sshd[1213372]: pam_unix(sshd:session): session closed for user shebpamm
+Mar 16 21:12:17 nitrogen systemd-logind[1424]: Session 6666 logged out. Waiting for processes to exit.
+Mar 16 21:12:17 nitrogen systemd-logind[1424]: Removed session 6666.
+Mar 16 21:12:18 nitrogen sshd[1213487]: Accepted publickey for shebpamm from 192.168.1.234 port 39566 ssh2: ED25519 SHA256:7l/DzZ9oCpgD5Zt9fvPc0HP7d/ueRxyckiFrasjzdZQ
+Mar 16 21:12:18 nitrogen sshd[1213487]: pam_unix(sshd:session): session opened for user shebpamm by (uid=0)
+Mar 16 21:12:18 nitrogen systemd-logind[1424]: New session 6668 of user shebpamm.
+Mar 16 21:17:01 nitrogen CRON[1214416]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 21:17:01 nitrogen CRON[1214416]: pam_unix(cron:session): session closed for user root
+Mar 16 21:27:21 nitrogen sshd[1213568]: Received disconnect from 192.168.1.234 port 39566:11: disconnected by user
+Mar 16 21:27:21 nitrogen sshd[1213568]: Disconnected from user shebpamm 192.168.1.234 port 39566
+Mar 16 21:27:21 nitrogen sshd[1213487]: pam_unix(sshd:session): session closed for user shebpamm
+Mar 16 21:27:21 nitrogen systemd-logind[1424]: Session 6668 logged out. Waiting for processes to exit.
+Mar 16 21:27:21 nitrogen systemd-logind[1424]: Removed session 6668.
+Mar 16 21:36:46 nitrogen sshd[1217833]: Accepted publickey for shebpamm from 192.168.1.234 port 40516 ssh2: ED25519 SHA256:7l/DzZ9oCpgD5Zt9fvPc0HP7d/ueRxyckiFrasjzdZQ
+Mar 16 21:36:46 nitrogen sshd[1217833]: pam_unix(sshd:session): session opened for user shebpamm by (uid=0)
+Mar 16 21:36:46 nitrogen systemd-logind[1424]: New session 6670 of user shebpamm.
+Mar 16 21:36:46 nitrogen systemd: pam_unix(systemd-user:session): session opened for user shebpamm by (uid=0)
+Mar 16 21:36:52 nitrogen sudo: shebpamm : TTY=pts/0 ; PWD=/home/shebpamm ; USER=root ; COMMAND=/bin/bash
+Mar 16 21:36:52 nitrogen sudo: pam_unix(sudo:session): session opened for user root by shebpamm(uid=0)
+Mar 16 22:17:01 nitrogen CRON[1224942]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 22:17:01 nitrogen CRON[1224942]: pam_unix(cron:session): session closed for user root
+Mar 16 23:17:01 nitrogen CRON[1235318]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 16 23:17:01 nitrogen CRON[1235318]: pam_unix(cron:session): session closed for user root
+Mar 17 00:00:01 nitrogen CRON[1242847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 00:00:01 nitrogen CRON[1242847]: pam_unix(cron:session): session closed for user root
+Mar 17 00:17:01 nitrogen CRON[1245781]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 00:17:01 nitrogen CRON[1245781]: pam_unix(cron:session): session closed for user root
+Mar 17 01:17:01 nitrogen CRON[1256144]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 01:17:01 nitrogen CRON[1256144]: pam_unix(cron:session): session closed for user root
+Mar 17 02:17:01 nitrogen CRON[1266511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 02:17:01 nitrogen CRON[1266511]: pam_unix(cron:session): session closed for user root
+Mar 17 03:10:01 nitrogen CRON[1275606]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 03:10:01 nitrogen CRON[1275606]: pam_unix(cron:session): session closed for user root
+Mar 17 03:17:01 nitrogen CRON[1276788]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 03:17:01 nitrogen CRON[1276788]: pam_unix(cron:session): session closed for user root
+Mar 17 04:17:01 nitrogen CRON[1287047]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 04:17:01 nitrogen CRON[1287047]: pam_unix(cron:session): session closed for user root
+Mar 17 05:17:01 nitrogen CRON[1297330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 05:17:01 nitrogen CRON[1297330]: pam_unix(cron:session): session closed for user root
+Mar 17 06:17:01 nitrogen CRON[1307678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 06:17:01 nitrogen CRON[1307678]: pam_unix(cron:session): session closed for user root
+Mar 17 06:25:01 nitrogen CRON[1309058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 06:25:02 nitrogen CRON[1309058]: pam_unix(cron:session): session closed for user root
+Mar 17 07:17:01 nitrogen CRON[1318805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 07:17:01 nitrogen CRON[1318805]: pam_unix(cron:session): session closed for user root
+Mar 17 08:17:01 nitrogen CRON[1329180]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 08:17:01 nitrogen CRON[1329180]: pam_unix(cron:session): session closed for user root
+Mar 17 09:17:01 nitrogen CRON[1339456]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 09:17:01 nitrogen CRON[1339456]: pam_unix(cron:session): session closed for user root
+Mar 17 10:17:01 nitrogen CRON[1349739]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 10:17:01 nitrogen CRON[1349739]: pam_unix(cron:session): session closed for user root
+Mar 17 11:17:01 nitrogen CRON[1360038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 11:17:01 nitrogen CRON[1360038]: pam_unix(cron:session): session closed for user root
+Mar 17 12:00:01 nitrogen CRON[1367429]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 12:00:01 nitrogen CRON[1367429]: pam_unix(cron:session): session closed for user root
+Mar 17 12:17:02 nitrogen CRON[1370371]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 12:17:02 nitrogen CRON[1370371]: pam_unix(cron:session): session closed for user root
+Mar 17 13:17:01 nitrogen CRON[1380642]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 13:17:01 nitrogen CRON[1380642]: pam_unix(cron:session): session closed for user root
+Mar 17 14:17:01 nitrogen CRON[1390955]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 14:17:01 nitrogen CRON[1390955]: pam_unix(cron:session): session closed for user root
+Mar 17 15:17:01 nitrogen CRON[1401252]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 15:17:01 nitrogen CRON[1401252]: pam_unix(cron:session): session closed for user root
+Mar 17 16:17:01 nitrogen CRON[1411572]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 16:17:01 nitrogen CRON[1411572]: pam_unix(cron:session): session closed for user root
+Mar 17 17:14:01 nitrogen CRON[1421332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 17:14:01 nitrogen CRON[1421332]: pam_unix(cron:session): session closed for user root
+Mar 17 17:17:01 nitrogen CRON[1421847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 17:17:01 nitrogen CRON[1421847]: pam_unix(cron:session): session closed for user root
+Mar 17 18:17:01 nitrogen CRON[1432142]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 18:17:01 nitrogen CRON[1432142]: pam_unix(cron:session): session closed for user root
+Mar 17 19:17:01 nitrogen CRON[1442428]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 19:17:01 nitrogen CRON[1442428]: pam_unix(cron:session): session closed for user root
+Mar 17 20:17:01 nitrogen CRON[1452848]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 20:17:01 nitrogen CRON[1452848]: pam_unix(cron:session): session closed for user root
+Mar 17 21:17:01 nitrogen CRON[1463156]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 21:17:01 nitrogen CRON[1463156]: pam_unix(cron:session): session closed for user root
+Mar 17 21:21:08 nitrogen sshd[1217928]: Received disconnect from 192.168.1.234 port 40516:11: disconnected by user
+Mar 17 21:21:08 nitrogen sshd[1217928]: Disconnected from user shebpamm 192.168.1.234 port 40516
+Mar 17 21:21:08 nitrogen sshd[1217833]: pam_unix(sshd:session): session closed for user shebpamm
+Mar 17 21:21:08 nitrogen sudo: pam_unix(sudo:session): session closed for user root
+Mar 17 21:21:08 nitrogen systemd-logind[1424]: Session 6670 logged out. Waiting for processes to exit.
+Mar 17 21:21:08 nitrogen systemd-logind[1424]: Removed session 6670.
+Mar 17 22:17:01 nitrogen CRON[1473492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 22:17:01 nitrogen CRON[1473492]: pam_unix(cron:session): session closed for user root
+Mar 17 23:17:01 nitrogen CRON[1483749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 23:17:01 nitrogen CRON[1483749]: pam_unix(cron:session): session closed for user root
+Mar 18 00:00:01 nitrogen CRON[1491195]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 00:00:01 nitrogen CRON[1491195]: pam_unix(cron:session): session closed for user root
+Mar 18 00:17:01 nitrogen CRON[1494134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 00:17:01 nitrogen CRON[1494134]: pam_unix(cron:session): session closed for user root
+Mar 18 01:17:01 nitrogen CRON[1504393]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 01:17:01 nitrogen CRON[1504393]: pam_unix(cron:session): session closed for user root
+Mar 18 02:17:01 nitrogen CRON[1514675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 02:17:01 nitrogen CRON[1514675]: pam_unix(cron:session): session closed for user root
+Mar 18 03:10:01 nitrogen CRON[1523749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 03:10:01 nitrogen CRON[1523749]: pam_unix(cron:session): session closed for user root
+Mar 18 03:17:01 nitrogen CRON[1524956]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 03:17:01 nitrogen CRON[1524956]: pam_unix(cron:session): session closed for user root
+Mar 18 04:17:01 nitrogen CRON[1535269]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 04:17:01 nitrogen CRON[1535269]: pam_unix(cron:session): session closed for user root
+Mar 18 05:17:01 nitrogen CRON[1545526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 05:17:01 nitrogen CRON[1545526]: pam_unix(cron:session): session closed for user root
+Mar 18 06:17:01 nitrogen CRON[1555790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 06:17:01 nitrogen CRON[1555790]: pam_unix(cron:session): session closed for user root
+Mar 18 06:25:02 nitrogen CRON[1557138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 06:25:02 nitrogen CRON[1557138]: pam_unix(cron:session): session closed for user root
+Mar 18 07:17:01 nitrogen CRON[1566238]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 07:17:01 nitrogen CRON[1566238]: pam_unix(cron:session): session closed for user root
+Mar 18 08:17:01 nitrogen CRON[1576459]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 08:17:01 nitrogen CRON[1576459]: pam_unix(cron:session): session closed for user root
+Mar 18 09:17:01 nitrogen CRON[1587420]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 09:17:01 nitrogen CRON[1587420]: pam_unix(cron:session): session closed for user root
+Mar 18 10:17:01 nitrogen CRON[1597691]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 10:17:01 nitrogen CRON[1597691]: pam_unix(cron:session): session closed for user root
+Mar 18 11:17:02 nitrogen CRON[1607962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 11:17:02 nitrogen CRON[1607962]: pam_unix(cron:session): session closed for user root
+Mar 18 11:58:41 nitrogen sshd[1615092]: Accepted publickey for shebpamm from 192.168.1.234 port 49812 ssh2: ED25519 SHA256:7l/DzZ9oCpgD5Zt9fvPc0HP7d/ueRxyckiFrasjzdZQ
+Mar 18 11:58:41 nitrogen sshd[1615092]: pam_unix(sshd:session): session opened for user shebpamm by (uid=0)
+Mar 18 11:58:41 nitrogen systemd-logind[1424]: New session 6718 of user shebpamm.
+Mar 18 11:58:41 nitrogen systemd: pam_unix(systemd-user:session): session opened for user shebpamm by (uid=0)
+Mar 18 12:00:01 nitrogen CRON[1615540]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 18 12:00:01 nitrogen CRON[1615540]: pam_unix(cron:session): session closed for user root
+Mar 18 12:03:30 nitrogen sudo: shebpamm : TTY=pts/0 ; PWD=/home/shebpamm ; USER=root ; COMMAND=/usr/bin/cp /etc/fstab /etc/fstab.bak
+Mar 18 12:03:30 nitrogen sudo: pam_unix(sudo:session): session opened for user root by shebpamm(uid=0)
+Mar 18 12:03:30 nitrogen sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 12:03:34 nitrogen sudo: shebpamm : TTY=pts/0 ; PWD=/home/shebpamm ; USER=root ; COMMAND=/usr/bin/vim /etc/fstab
+Mar 18 12:03:34 nitrogen sudo: pam_unix(sudo:session): session opened for user root by shebpamm(uid=0)
+Mar 18 12:03:51 nitrogen sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 12:03:58 nitrogen sudo: shebpamm : TTY=pts/0 ; PWD=/home/shebpamm ; USER=root ; COMMAND=/usr/bin/mount /data/media
+Mar 18 12:03:58 nitrogen sudo: pam_unix(sudo:session): session opened for user root by shebpamm(uid=0)
+Mar 18 12:03:58 nitrogen sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 12:04:09 nitrogen sudo: shebpamm : TTY=pts/0 ; PWD=/home/shebpamm ; USER=root ; COMMAND=/usr/bin/touch /data/media/hello
+Mar 18 12:04:09 nitrogen sudo: pam_unix(sudo:session): session opened for user root by shebpamm(uid=0)
+Mar 18 12:04:09 nitrogen sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 12:04:28 nitrogen sudo: shebpamm : TTY=pts/0 ; PWD=/home/shebpamm ; USER=root ; COMMAND=/usr/bin/rm -r /data/media/hello
+Mar 18 12:04:28 nitrogen sudo: pam_unix(sudo:session): session opened for user root by shebpamm(uid=0)
+Mar 18 12:04:28 nitrogen sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 12:04:32 nitrogen sudo: shebpamm : TTY=pts/0 ; PWD=/home/shebpamm ; USER=root ; COMMAND=/usr/bin/umount /data/media
+Mar 18 12:04:32 nitrogen sudo: pam_unix(sudo:session): session opened for user root by shebpamm(uid=0)
+Mar 18 12:04:33 nitrogen sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 12:12:42 nitrogen sshd[1617863]: Accepted publickey for shebpamm from 192.168.1.234 port 43954 ssh2: ED25519 SHA256:7l/DzZ9oCpgD5Zt9fvPc0HP7d/ueRxyckiFrasjzdZQ
+Mar 18 12:12:42 nitrogen sshd[1617863]: pam_unix(sshd:session): session opened for user shebpamm by (uid=0)
+Mar 18 12:12:42 nitrogen systemd-logind[1424]: New session 6721 of user shebpamm.
