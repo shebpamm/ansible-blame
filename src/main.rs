@@ -1,3 +1,5 @@
+mod remote;
+
 use clap::Parser;
 use std::path::{Path, PathBuf};
 
@@ -25,7 +27,7 @@ fn determine_source(source: String) -> Source {
     }
 }
 
-fn aquire_data(source: Source) -> Vec<String> {
+async fn aquire_data(source: Source) -> Vec<String> {
     match source {
         Source::File(path) => {
             let contents =
@@ -33,25 +35,20 @@ fn aquire_data(source: Source) -> Vec<String> {
             contents.lines().map(|s| s.to_string()).collect()
         }
 
-        Source::Remote(host) => {
-            let mut cmd = std::process::Command::new("ssh");
-            cmd.arg(host).arg("cat /var/log/auth.log");
-            let output = cmd.output().expect("failed to execute process");
-            let contents =
-                String::from_utf8(output.stdout).expect("failed to convert output to string");
-            contents.lines().map(|s| s.to_string()).collect()
-        }
+        Source::Remote(host) => remote::read_remote_auth_log(&host).await.expect("Something went wrong reading the remote file")
     }
 }
 
-fn main() {
+#[tokio::main]
+async fn main() {
     let args = Args::parse();
 
     let local_timezone = chrono::Local::now().offset();
 
     let source = determine_source(args.source);
 
-    let data = aquire_data(source);
+    let data = aquire_data(source).await;
 
-    println!("{:?}", data);
+    // Print how many lines were read
+    println!("Read {} lines", data.len());
 }
