@@ -1,7 +1,7 @@
 mod remote;
 
 use clap::Parser;
-use std::path::{Path, PathBuf};
+use std::path::PathBuf;
 
 #[derive(Parser)]
 #[clap(
