@@ -29,15 +29,15 @@ fn determine_source(source: String) -> Source {
     }
 }
 
-async fn aquire_data(source: Source) -> Vec<String> {
+async fn aquire_data(source: Source) -> anyhow::Result<Vec<String>> {
     match source {
         Source::File(path) => {
             let contents =
-                std::fs::read_to_string(path).expect("Something went wrong reading the file");
-            contents.lines().map(|s| s.to_string()).collect()
+                std::fs::read_to_string(path)?;
+            Ok(contents.lines().map(|s| s.to_string()).collect())
         }
 
-        Source::Remote(host) => remote::read_remote_auth_log(&host).await.expect("Something went wrong reading the remote file")
+        Source::Remote(host) => remote::read_remote_auth_log(&host).await
     }
 }
 
@@ -49,7 +49,13 @@ async fn main() {
 
     let source = determine_source(args.source);
 
-    let data = aquire_data(source).await;
+    let data = match aquire_data(source).await {
+        Ok(data) => data,
+        Err(e) => {
+            eprintln!("Error: {}", e);
+            std::process::exit(1);
+        }
+    };
 
     // Print how many lines were read
     println!("Read {} lines", data.len());
