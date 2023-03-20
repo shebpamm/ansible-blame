@@ -7,11 +7,13 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.70"
+async-trait = "0.1.67"
 chrono = "0.4.24"
 clap = { version = "4.1.9", features = ["derive"] }
 futures = "0.3.27"
 openssh = { version = "0.9.9", features = ["native-mux"] }
 regex = "1.7.1"
+rpassword = "7.2.0"
 strum = { version = "0.24.1", features = ["derive"] }
 thiserror = "1.0.39"
-tokio = { version = "1.26.0", features = ["rt", "rt-multi-thread"] }
+tokio = { version = "1.26.0", features = ["rt", "rt-multi-thread", "fs"] }

@@ -5,5 +5,6 @@
     cargo
     rustup
     gdb
+    rust-analyzer
   ];
 }

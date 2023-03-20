@@ -1,9 +1,13 @@
-mod remote;
+mod reader;
 mod parser;
 mod entry;
 
+use reader::SourceReader;
 use clap::Parser;
 use std::path::PathBuf;
+use std::io::{self, Write};
+
+use rpassword::read_password;
 
 #[derive(Parser)]
 #[clap(
@@ -13,12 +17,16 @@ use std::path::PathBuf;
 )]
 struct Args {
     source: String,
+
+    #[clap(short = 'p', long)]
+    ask_sudo: bool,
 }
 
 enum Source {
     File(PathBuf),
     Remote(String),
 }
+
 
 fn determine_source(source: String) -> Source {
     // Check if source is a local file
@@ -29,34 +37,37 @@ fn determine_source(source: String) -> Source {
     }
 }
 
-async fn aquire_data(source: Source) -> anyhow::Result<Vec<String>> {
-    match source {
-        Source::File(path) => {
-            let contents =
-                std::fs::read_to_string(path)?;
-            Ok(contents.lines().map(|s| s.to_string()).collect())
-        }
-
-        Source::Remote(host) => remote::read_remote_auth_log(&host).await
-    }
-}
-
 #[tokio::main]
 async fn main() {
     let args = Args::parse();
+
+    let password: Option<String> = match args.ask_sudo {
+        true => {
+            print!("Enter sudo password: ");
+            io::stdout().flush().unwrap();
+            let password = read_password().unwrap();
+            Some(password)
+        }
+        false => None,
+    };
 
     let local_timezone = chrono::Local::now().offset();
 
     let source = determine_source(args.source);
 
-    let data = match aquire_data(source).await {
+    let source_reader = match source {
+        Source::File(path) => SourceReader::Local(reader::LocalSource::new(path)),
+        Source::Remote(host) => SourceReader::Remote(reader::RemoteSource::new(host, password)),
+    };
+
+    let data = match source_reader.read().await {
         Ok(data) => data,
         Err(e) => {
-            eprintln!("Error: {}", e);
+            println!("Error: {}", e);
             std::process::exit(1);
         }
     };
-
+ 
     // Print how many lines were read
     println!("Read {} lines", data.len());
 
