@@ -159,4 +159,12 @@ mod tests {
             "user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/bin/bash"
         );
     }
+
+    #[test]
+    fn parser_fails_invalid_time() {
+        let line = "Jan 01 ad:00:00 host sudo: user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/bin/bash";
+        let result = super::parse_line(line).unwrap_err();
+        let expected = super::LogParseError::InvalidTime;
+        assert_eq!(result, expected);
+    }
 }
